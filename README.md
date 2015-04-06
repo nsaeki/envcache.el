@@ -4,13 +4,15 @@ Fetch and cache shell environment variables.
 
 ## install
 
-Write this later.
+Download el file and place it in your own emacs directory.
+
+https://raw.githubusercontent.com/nsaeki/envcache.el/master/envcache.el
 
 ## setup
 
 ```elisp
 (require 'envcache)
-;; cache envirnment variables
+;; cache environment variables
 (envcache/init)
 ;; fetch value
 (setenv "GOPATH" (envcache/getenv "GOPATH"))
